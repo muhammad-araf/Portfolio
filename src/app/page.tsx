@@ -297,21 +297,21 @@ export default function Home() {
       <span className="text-purple-400">Email</span>
     </a>
     <a
-      href="https://linkedin.com"
+      href="https://www.linkedin.com/in/muhammad-araf-b978b6333"
       target="_blank"
       className="flex items-center gap-3 bg-gray-500/15 rounded-xl shadow-md py-2 px-6 hover:shadow-lg transition"
     >
       <span className="text-purple-400">LinkedIn</span>
     </a>
     <a
-      href="https://github.com"
+      href="https://github.com/muhammad-araf"
       target="_blank"
         className="flex items-center gap-3 bg-gray-500/15 rounded-xl shadow-md py-2 px-6 hover:shadow-lg transition"
     >
       <span className="text-purple-400">GitHub</span>
     </a>
     <a
-      href="https://wa.me/1234567890"
+      href="https://wa.me/+923146337881"
       target="_blank"
         className="flex items-center gap-3 bg-gray-500/15 rounded-xl shadow-md py-2 px-6 hover:shadow-lg transition"
     >
