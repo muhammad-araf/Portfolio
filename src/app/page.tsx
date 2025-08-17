@@ -56,10 +56,10 @@ export default function Home() {
       {menuOpen && (
         <div className="absolute top-20 w-[90%] max-w-sm bg-gray-800/90 rounded-lg shadow-lg p-6 md:hidden">
           <div className="flex flex-col space-y-4">
-            {["About", "Skills", "Projects", "Contact"].map((item) => (
+            {["about", "skills", "Projects", "Contact"].map((item) => (
               <Link
                 key={item}
-                href={`/${item.toLowerCase()}`}
+                href={`/#${item.toLowerCase()}`}
                 className="block px-4 py-2 rounded-md text-purple-400 hover:text-white hover:bg-purple-500/20 transition duration-300"
                 onClick={() => setMenuOpen(false)}
               >
