@@ -84,7 +84,6 @@ export default function Home() {
         <AnimatePresence>
           {menuOpen && (
             <motion.div
-              variants={mobileMenuVariants}
               initial="hidden"
               animate="visible"
               exit="exit"
@@ -117,7 +116,6 @@ export default function Home() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        variants={sectionVariants}
         className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-6 pb-20 gap-12 sm:p-10 bg-gradient-to-b from-purple-900/10 via-purple-900/40 to-[#7a07de52]
 "
       >
@@ -179,7 +177,6 @@ export default function Home() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        variants={sectionVariants}
         className="min-h-screen w-full flex flex-col justify-center items-center mb-10 "
         id="about"
       >
@@ -205,7 +202,6 @@ export default function Home() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        variants={sectionVariants}
         className="min-h-screen w-full flex flex-col justify-center items-center mt-10 "
         id="skills"
       >
@@ -330,7 +326,6 @@ export default function Home() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        variants={sectionVariants}
         className="min-h-screen w-full flex flex-col items-center mt-10 px-4 mb-20 "
         id="projects"
       >
@@ -412,7 +407,6 @@ export default function Home() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        variants={sectionVariants}
         className="w-full flex flex-col items-center mt-10 px-4 mb-20 "
       >
         <motion.h1
@@ -446,7 +440,6 @@ export default function Home() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        variants={sectionVariants}
         className="w-full flex flex-col items-center mt-10 px-4 mb-20 bg-transparent"
         id="contact"
       >
