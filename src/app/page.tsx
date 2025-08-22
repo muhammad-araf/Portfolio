@@ -144,7 +144,8 @@ export default function Home() {
           >
             <a
               className="rounded-full border border-purple-500 bg-purple-600 text-white font-medium text-sm h-10 px-6 hover:bg-purple-700 hover:scale-105 transition-all duration-300 flex items-center justify-center w-full sm:w-auto"
-              href=""
+              href="/Muhammad_Araf.pdf"
+              download="Muhammad_Araf.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -152,7 +153,7 @@ export default function Home() {
             </a>
             <a
               className="rounded-full border border-purple-500/50 text-purple-300 font-medium text-sm h-10 px-6 hover:bg-purple-600/20 hover:text-white hover:scale-105 transition-all duration-300 flex items-center justify-center w-full sm:w-auto"
-              href=""
+              href="/Muhammad_Araf.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
